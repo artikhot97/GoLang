@@ -17,8 +17,8 @@ type UrlResponse struct {
 }
 
 const (
-    AWS_S3_REGION = "us-east-1"
-    AWS_S3_BUCKET = "golang-s3-upload"
+    AWS_S3_REGION = "your-s3-regoin-name"
+    AWS_S3_BUCKET = "your_bucket_name"
 )
 
 var s3session *s3.S3
